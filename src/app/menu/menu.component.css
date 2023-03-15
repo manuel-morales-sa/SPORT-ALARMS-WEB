@@ -1,0 +1,12 @@
+.menu{
+  display:inline;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#menu-item{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+

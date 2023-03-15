@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="title col-sm-12">
+      <p>Recordatorios</p>
+    </div>
+  </div>
+
+  <div class="lista row" *ngFor="let item of lista">
+    <div class="col-sm-3" ></div>
+
+
+    <div class="lista-item col-sm-6" >
+      <div id="hora">
+        <p>Pausa Activa</p>descripción
+      </div>
+      <div id="boton">
+        <mat-slide-toggle color="primary"></mat-slide-toggle>
+      </div>
+    </div>
+
+
+    <div class="col-sm-3"></div>
+  </div>
+
+  <div class="create row">
+    <div class="col-sm"></div>
+    <div class="col-sm"></div>
+    <div class="create-icon col-sm"><a href="/signin"> <img  id="menu-item" width="15%" onmouseout="this.src='assets/crear.png';" onmouseover="this.src='assets/crear2.png';" src="assets/crear.png"></a></div>
+  </div>
+
+
+    <div class="dropdown-divider" id="line-one" style="border-color:rgb(217, 210, 210);"></div>
+    <div class="dropdown-divider" id="line-two" style="border-color:rgb(217, 210, 210);"></div>
+
+    <div class="menu row">
+      <app-menu></app-menu>
+    </div>
+  </div>
+
+

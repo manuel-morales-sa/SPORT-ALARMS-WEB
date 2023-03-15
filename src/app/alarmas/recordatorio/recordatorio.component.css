@@ -1,0 +1,93 @@
+.container{
+  color: #FFFFFF;
+  width: 100%;
+  min-height: auto;
+
+}
+
+.title{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+
+.off{
+  text-align: right;
+}
+
+.clock{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.tabla{
+  text-align: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+#clock{
+  display: inline;
+  font-size: 50px;
+
+}
+
+.create-icon{
+  text-align: right;
+}
+
+.create{
+  margin-top: 50px;
+}
+
+.lista{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lista-item{
+  text-align: center;
+  height: 70px;
+  background-color:#272626;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lista-item > div {
+  width: 50%;
+}
+
+
+#hora{
+padding: 10px;
+text-align: left;
+}
+
+#hora p{
+  font-size: large;
+
+  }
+
+#boton{
+  padding-top: 25px;
+  text-align: right;
+  }
+
+#line-one{
+  margin-top: 25px;
+}
+
+
+#line-two{
+  margin-bottom: 25px;
+}
+
+

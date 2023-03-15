@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+    <div class="title col-sm-12">
+      <p>Cronómetro</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="clock col-sm-12">
+      <p id="clock">00:00:00 </p>p.m.
+    </div>
+  </div>
+
+  <div class="lista row" *ngFor="let item of lista">
+    <div class="col-sm-3" ></div>
+
+
+    <div class="lista-item col-sm-6" >
+      <div id="hora">
+        <p>5:30 pm</p>descripción
+      </div>
+      <div id="boton">
+        <mat-slide-toggle color="primary"></mat-slide-toggle>
+      </div>
+    </div>
+
+
+    <div class="col-sm-3"></div>
+  </div>
+
+  <div class="create row">
+    <div class="col-sm-3"></div>
+    <div class="controles col-sm-6">
+      <img  id="controles-item" width="7%"   onmouseout="this.src='assets/reiniciar.png';" onmouseover="this.src='assets/reiniciar2.png';" src="assets/reiniciar.png">
+      <img  id="controles-item" width="8%"   onmouseout="this.src='assets/play.png';" onmouseover="this.src='assets/pause.png';" src="assets/play.png">
+      <img  id="controles-item" width="10%"   onmouseout="this.src='assets/lap.png';" onmouseover="this.src='assets/lap2.png';" src="assets/lap.png">
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+
+    <div class="dropdown-divider" id="line-one" style="border-color:rgb(217, 210, 210);"></div>
+    <div class="dropdown-divider" id="line-two" style="border-color:rgb(217, 210, 210);"></div>
+
+    <div class="menu row">
+      <app-menu></app-menu>
+    </div>
+  </div>
+
+

@@ -1,0 +1,172 @@
+.container{
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+
+.column{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+
+
+}
+
+.column-2{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 10px;
+
+
+}
+
+.forecast{
+  text-align: center;
+  margin: 80px;
+  font-size: 30px;
+  width: 70%;
+  height: auto;
+  border-radius: 50px;
+  border-color: #FFFFFF;
+  border: 1px solid;
+  padding-top: 20px;
+  min-height: 500px;
+
+}
+
+.pronostico{
+  font-size: 25px;
+
+}
+
+#line-one{
+  margin-top: 25px;
+}
+
+
+#line-two{
+  margin-bottom: 25px;
+}
+
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+
+
+.radios{
+  text-align: left;
+  padding: 30px;
+  font-size: 10px;
+  display: inline;
+}
+
+input[type=checkbox] {
+  border: 0px;
+  width: 10%;
+  height: 1em;
+  border-radius: 10%;
+
+}
+
+.input-group{
+
+  padding-left: 30px;
+
+}
+
+.default{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#td{
+  text-align: left;
+
+
+}
+
+#td-delete{
+  text-align: right;
+}
+
+.ghost-input {
+  display: block;
+  font-weight:300;
+  font-size: 25px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #141518;
+  font-family: roboto;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-input:focus {
+  border-bottom:1px solid #ddd;
+}
+.ghost-button {
+  background-color: transparent;
+  border:2px solid #ddd;
+  padding:10px 30px;
+  min-width: 350px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-button:hover {
+  border:2px solid #515151;
+}
+
+
+.lista-item{
+  text-align: center;
+  height: 70px;
+  background-color:#272626;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+#hora{
+  padding: 10px;
+  text-align: left;
+  }
+
+  #hora p{
+    font-size: large;
+
+    }
+
+  #boton{
+    padding-top: 25px;
+    text-align: right;
+    }
+
+.pendiente{
+
+  text-align: center;
+
+}

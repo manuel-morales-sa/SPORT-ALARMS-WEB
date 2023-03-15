@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-recordatorio',
+  templateUrl: './recordatorio.component.html',
+  styleUrls: ['./recordatorio.component.css']
+})
+export class RecordatorioComponent implements OnInit {
+
+  lista:string[]=["hola","que","tal", "chamo"];
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
