@@ -4,13 +4,9 @@ import { AlarmasComponent } from './alarmas/alarmas.component';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
-import { RecordatorioComponent } from './recordatorio/recordatorio.component';
-import { CronometroComponent } from './cronometro/cronometro.component';
-import { TemporizadorComponent } from './temporizador/temporizador.component';
-import { ClimaComponent } from './clima/clima.component';
 import {MatRadioModule} from '@angular/material/radio';
 import { MenuComponent } from '../menu/menu.component';
-
+import { SettingsComponent } from './settings/settings.component';
 
 
 @NgModule({
@@ -20,9 +16,7 @@ import { MenuComponent } from '../menu/menu.component';
     MatCardModule,
     MatSlideToggleModule,
     MatRadioModule
-
-
   ],
-  declarations: [AlarmasComponent, RecordatorioComponent, CronometroComponent, TemporizadorComponent, ClimaComponent, MenuComponent]
+  declarations: [AlarmasComponent, SettingsComponent, MenuComponent]
 })
 export class AlarmasModule { }
