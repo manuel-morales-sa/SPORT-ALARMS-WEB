@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlarmasComponent implements OnInit {
 
-  lista:string[]=["hola","que"];
+  lista:string[]=["hola","que", "Bebe", "Pues"];
 
   constructor() { }
 

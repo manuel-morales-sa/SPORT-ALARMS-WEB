@@ -19,6 +19,7 @@ import { MenuComponent } from '../menu/menu.component';
     MatDividerModule,
     MatCardModule,
     MatSlideToggleModule,
+    MatRadioModule
 
 
   ],

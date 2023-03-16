@@ -1,49 +1,107 @@
+<div class="content row">
+  <div class="row">
+    <div class="col-md-9"></div>
+    <div class="col-md-1 text-logout"><a href="/signin"><p style="color: white;">Log Out</p></a></div>
+    <div class="col-md-1"><a href="/signin"><img  width="80%" src="assets/plus1.png"></a></div>
+    <div class="col-md-1"><a href="/signin"><img  width="70%" src="assets/Settings.png"></a></div>
+  </div>
+  <div class="col-sm-12">
+    <TABLE>
+      <TR>
+        <TD> <h1 class="app-name-left">SPORT</h1> </TD>
+        <TD>
+          <img src="assets/icono_base.png" class="center" />
+        </TD>
+        <TD> <h1 class="app-name-right">ALARMS</h1> </TD><TD> </TD
+      ></TR>
+    </TABLE>
+  </div>
 <div class="container">
-  <div class="row">
-    <div class="title col-sm-12">
-      <p>Alarmas</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm"></div>
-    <div class="col-sm"></div>
-    <div class="off col-sm"><a href="/signin"><img  id="menu-item" width="15%"   onmouseout="this.src='assets/cerrar.png';" onmouseover="this.src='assets/cerrar2.png';" src="assets/cerrar.png"></a></div>
-  </div>
-  <div class="row">
-    <div class="clock col-sm-12">
-      <p id="clock">11:13:42 </p>p.m.
-    </div>
-  </div>
-
-  <div class="lista row" *ngFor="let item of lista">
-    <div class="col-sm-3" ></div>
-
-
-    <div class="lista-item col-sm-6" >
-      <div id="hora">
-        <p>5:30 pm</p>descripción
+  <div class="content row">
+    <div class="col-md-6">
+      <div class="cuadro">
+        <div class="text-alarm">
+          <p>Alarmas</p>
+        </div>
+        <div class="lista row" *ngFor="let item of lista">
+          <div class="lista-item col-sm-12">
+            <div class="form-check col-sm-2">
+              <mat-radio-button></mat-radio-button>
+            </div>
+            <div id="hora" class="col-sm-5">
+              <p>5:30 PM</p>
+            </div>
+            <div class="form-check form-switch col-sm-5">
+              <input
+                class="form-check-input swt-blue"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckChecked"
+                checked
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="boton">
-        <mat-slide-toggle color="primary"></mat-slide-toggle>
+    </div>
+    <div class="col-md-6">
+      <div class="cuadro">
+        <div class="text-alarm">
+          <p>Rutinas</p>
+        </div>
+        <div class="lista row">
+          <div class="lista-item col-sm-12">
+            <div class="form-check col-sm-2">
+              <mat-radio-button></mat-radio-button>
+            </div>
+            <div id="hora" class="col-sm-5">
+              <p>5:30 AM</p>
+            </div>
+            <div class="form-check form-switch col-sm-5">
+              <img src="assets/Sport1.png" width="40%" />
+            </div>
+          </div>
+        </div>
+        <div class="lista row">
+          <div class="lista-item col-sm-12">
+            <div class="form-check col-sm-2">
+              <mat-radio-button></mat-radio-button>
+            </div>
+            <div id="hora" class="col-sm-5">
+              <p>7:30 PM</p>
+            </div>
+            <div class="form-check form-switch col-sm-5">
+              <img src="assets/Sport2.png" width="40%" />
+            </div>
+          </div>
+        </div>
+        <div class="lista row">
+          <div class="lista-item col-sm-12">
+            <div class="form-check col-sm-2">
+              <mat-radio-button></mat-radio-button>
+            </div>
+            <div id="hora" class="col-sm-5">
+              <p>11:30 PM</p>
+            </div>
+            <div class="form-check form-switch col-sm-5">
+              <img src="assets/Sport7.png" width="40%" />
+            </div>
+          </div>
+        </div>
+        <div class="lista row">
+          <div class="lista-item col-sm-12">
+            <div class="form-check col-sm-2">
+              <mat-radio-button></mat-radio-button>
+            </div>
+            <div id="hora" class="col-sm-5">
+              <p>7:30 PM</p>
+            </div>
+            <div class="form-check form-switch col-sm-5">
+              <img src="assets/Sport8.png" width="40%" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-
-    <div class="col-sm-3"></div>
   </div>
-
-  <div class="create row">
-    <div class="col-sm"></div>
-    <div class="col-sm"></div>
-    <div class="create-icon col-sm"><a href="/signin"> <img  id="menu-item" width="15%" onmouseout="this.src='assets/crear.png';" onmouseover="this.src='assets/crear2.png';" src="assets/icono_base.png"></a></div>
-  </div>
-
-
-    <div class="dropdown-divider" id="line-one" style="border-color:rgb(217, 210, 210);"></div>
-    <div class="dropdown-divider" id="line-two" style="border-color:rgb(217, 210, 210);"></div>
-
-    <div class="menu row">
-      <app-menu></app-menu>
-    </div>
-  </div>
-
+</div>
