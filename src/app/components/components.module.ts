@@ -6,18 +6,20 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { SettingComponent } from './setting/setting.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     HeaderMenuComponent,
-    CrearEventoComponent
+    CrearEventoComponent,
+    SettingComponent
   ],
   imports: [
     CommonModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    RouterModule 
+    RouterModule
   ],
   exports: [
     HeaderComponent,

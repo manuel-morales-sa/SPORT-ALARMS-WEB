@@ -8,7 +8,7 @@
             <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img width="80%" src="assets/plus1.png"/></a>
         </div>
         <div class="col-1 my-auto">
-            <a [routerLink]="['/settings']"><img width="50%" src="assets/Settings.png" /></a>
+            <a role="button" data-bs-toggle="modal" data-bs-target="#settingsModal"><img width="50%" src="assets/Settings.png" /></a>
         </div>
     </div>
 </div>
@@ -19,4 +19,8 @@
             <app-crear-evento></app-crear-evento>         
         </div>
     </div>
+</div>
+
+<div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <app-setting></app-setting>     
 </div>
