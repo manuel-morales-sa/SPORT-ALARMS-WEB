@@ -1,23 +1,18 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { UserModule } from './user/user.module';
-import {MatCardModule} from '@angular/material/card';
 import { AlarmasModule } from './alarmas/alarmas.module';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import { MatCardModule } from '@angular/material/card';
+import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { ToastrModule } from "ngx-toastr";
-import { MenuComponent } from './menu/menu.component';
-
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-
-
-
-   ],
+    AppComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -25,6 +20,7 @@ import { MenuComponent } from './menu/menu.component';
     UserModule,
     MatCardModule,
     AlarmasModule,
+    RouterModule,
     ToastrModule.forRoot({
       timeOut: 1500,
       positionClass: "toast-bottom-right",

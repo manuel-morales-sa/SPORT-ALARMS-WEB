@@ -1,0 +1,16 @@
+.btn-logout {
+    color: #ffffff;
+    border-color: #d80e70;
+    font-size: 23px;
+    /* border: 2px solid;
+    border-radius: 70px;
+    margin: 0 auto 100px;
+    padding: 10px;
+    text-align: center; */
+}
+.modal-content {
+    background: #ffffffb8;
+}
+button, a  {
+    font-family: cursive;
+}

@@ -1,0 +1,13 @@
+.btn-guardar {
+    background-color: #0cd9f6;
+    border-color: #035460;
+    font-weight: 600;
+    width: 100px;
+}
+
+.btn-cancelar {
+    background-color: #d80e70;
+    border-color: #6e0051;
+    font-weight: 600;
+    width: 100px;
+}

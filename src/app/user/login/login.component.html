@@ -1,25 +1,22 @@
-<TABLE>
-  <TR>
-    <TD> <h1 class="app-name-left">SPORT</h1> </TD
-    ><TD>
-      <img src="assets/icono_base.png" class="center" />
-    </TD>
-    <TD> <h1 class="app-name-right">ALARMS</h1> </TD><TD> </TD
-  ></TR>
-</TABLE>
-<div class="login-page">
-  <div class="form" (ngSubmit)="submit()">
-    <form class="login-form">
-      <input type="user" placeholder="Usuario" />
-      <input type="contrasena" placeholder="Contraseña" />
-      <button (click)="submit()">Log in</button>
-      <p class="message">
-        Don’t have an account?<a href="/signup"> Sign Up</a>
-      </p>
-      <p class="message-pass">Forgot my<a href="/signup"> password</a></p>
-    </form>
+<app-header></app-header>
+<div class="row">
+  <div class="col"></div>
+  <div class="col">
+    <div class="login-page">
+      <div class="form mb-2" (ngSubmit)="submit()">
+        <form class="login-form">
+          <input type="user" placeholder="Usuario" />
+          <input type="contrasena" placeholder="Contraseña" />
+          <button (click)="submit()">Log in</button>
+          <p class="message">
+            Don’t have an account?<a [routerLink]="['/signup']"> Sign Up</a>
+          </p>
+          <p class="message-pass">Forgot my<a [routerLink]="['/signup']"> password</a></p>
+        </form>
+      </div>
+    </div>
   </div>
-</div>
-<div>
-  <img src="assets/sports_icons.png" class="footer" />
+  <div class="col d-flex align-items-end justify-content-lg-around">
+    <img src="assets/sports_icons.png" class="footer" />
+  </div>
 </div>
