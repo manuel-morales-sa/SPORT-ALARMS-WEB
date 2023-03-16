@@ -2,14 +2,13 @@
     <div class="row">
         <div class="col-9"></div>
         <div class="col-1 my-auto">
-            <button type="button" class="btn btn-outline rounded-5 btn-logout">Log Out</button>
-            <!-- <a href="/signin" style="text-decoration: none"><p style="color: white">Log Out</p></a> -->
+            <button type="button" class="btn btn-outline rounded-5 btn-logout" [routerLink]="['/signin']">Log Out</button>
         </div>
         <div class="col-1 my-auto">
             <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img width="80%" src="assets/plus1.png"/></a>
         </div>
         <div class="col-1 my-auto">
-            <a href="/signin"><img width="50%" src="assets/Settings.png" /></a>
+            <a [routerLink]="['/signin']"><img width="50%" src="assets/Settings.png" /></a>
         </div>
     </div>
 </div>

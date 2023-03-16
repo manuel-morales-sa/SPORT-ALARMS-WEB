@@ -1,13 +1,69 @@
 .btn-guardar {
-    background-color: #0cd9f6;
-    border-color: #035460;
-    font-weight: 600;
-    width: 100px;
+  background-color: #0cd9f6;
+  border-color: #035460;
+  font-weight: 600;
+  width: 100px;
 }
 
 .btn-cancelar {
-    background-color: #d80e70;
-    border-color: #6e0051;
-    font-weight: 600;
-    width: 100px;
+  background-color: #d80e70;
+  border-color: #6e0051;
+  font-weight: 600;
+  width: 100px;
+}
+
+.img {
+  cursor: pointer;
+}
+
+.input-text {
+  width: 500px;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #4a4a4a;
+  font-size: 15px;
+}
+.form .message a {
+  color: #0cd9f6;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form .message-pass {
+  margin: 15px 0 0;
+  color: #4a4a4a;
+  font-size: 15px;
+}
+.form .message-pass a {
+  color: #d80e70;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #ffffff;
+  border-radius: 25px 25px 25px 25px;
+  width: 60%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.list-group-item {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 14px;
 }

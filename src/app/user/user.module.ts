@@ -8,6 +8,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { SignupComponent } from './signup/signup.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,6 @@ import { SignupComponent } from './signup/signup.component';
     RouterModule,
     ComponentsModule
   ],
-  declarations: [LoginComponent, SignupComponent]
+  declarations: [LoginComponent, SignupComponent, ForgotComponent]
 })
 export class UserModule { }

@@ -7,6 +7,7 @@ import { RecordatorioComponent } from './alarmas/recordatorio/recordatorio.compo
 import { CronometroComponent } from './alarmas/cronometro/cronometro.component';
 import { TemporizadorComponent } from './alarmas/temporizador/temporizador.component';
 import { ClimaComponent } from './alarmas/clima/clima.component';
+import { ForgotComponent } from './user/forgot/forgot.component';
 
 const routes: Routes = [
   {
@@ -24,15 +25,16 @@ const routes: Routes = [
     component: SignupComponent,
     pathMatch: 'full'
   },
+
   {
-    path: 'alarm',
-    component: AlarmasComponent,
+    path: 'forgot',
+    component:  ForgotComponent,
     pathMatch: 'full'
   },
 
   {
-    path: 'reminder',
-    component:  RecordatorioComponent,
+    path: 'alarm',
+    component: AlarmasComponent,
     pathMatch: 'full'
   },
 
