@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.container{
-  color: #FFFFFF;
+.container {
+  color: #ffffff;
   width: 100%;
 }
 
@@ -51,13 +51,14 @@ h2 {
   border-radius: 70px;
 }
 
-.text-logout{
-  align-items: center;
-  color: #D80E70;
+.text-logout {
+  color: #d80e70;
   font-size: 20px;
-  border: solid;
+  border: 2px solid;
   border-radius: 70px;
-  padding: 20px;
+  margin: 0 auto 100px;
+  padding: 10px;
+  text-align: center;
 }
 
 .form-correo {
@@ -156,7 +157,7 @@ h2 {
   display: block;
   color: white;
   font-size: 80px;
-  font-family: sans-serif;
+  font-family: "Times New Roman", Times, serif;
   padding-left: 150px;
   padding-right: 50px;
 }
@@ -167,7 +168,7 @@ h2 {
   display: block;
   color: white;
   font-size: 80px;
-  font-family: sans-serif;
+  font-family: "Times New Roman", Times, serif;
   padding-left: 5px;
   padding-right: 150px;
 }
@@ -214,7 +215,6 @@ h2 {
 #hora p {
   font-size: 30px;
   color: #000;
-
 }
 
 .form-check-input {
@@ -230,10 +230,10 @@ h2 {
   cursor: pointer;
 }
 .swt-blue.form-check-input {
-  background-color: #D80E70;
+  background-color: #d80e70;
   border-color: #6e0051;
 }
 .swt-blue.form-check-input:checked {
-  background-color: #0CD9F6;
+  background-color: #0cd9f6;
   border-color: #035460;
 }
