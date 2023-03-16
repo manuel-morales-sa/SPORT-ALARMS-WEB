@@ -1,26 +1,23 @@
-import { AlarmasComponent } from './alarmas/alarmas.component';
-import { ClimaComponent } from './clima/clima.component';
 import { CommonModule } from '@angular/common';
-import { ComponentsModule } from './../components/components.module';
-import { CronometroComponent } from './cronometro/cronometro.component';
-import { MatCardModule } from '@angular/material/card';
+import { AlarmasComponent } from './alarmas/alarmas.component';
 import { MatDividerModule } from '@angular/material/divider';
-import { MatRadioModule } from '@angular/material/radio';
+import { MatCardModule } from '@angular/material/card';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatRadioModule } from '@angular/material/radio';
 import { MenuComponent } from '../menu/menu.component';
+import { SettingsComponent } from './settings/settings.component';
 import { NgModule } from '@angular/core';
-import { RecordatorioComponent } from './recordatorio/recordatorio.component';
-import { TemporizadorComponent } from './temporizador/temporizador.component';
+import { ComponentsModule } from "../components/components.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    MatDividerModule,
-    MatCardModule,
-    MatSlideToggleModule,
-    MatRadioModule,
-    ComponentsModule
-  ],
-  declarations: [AlarmasComponent, RecordatorioComponent, CronometroComponent, TemporizadorComponent, ClimaComponent, MenuComponent]
+    declarations: [AlarmasComponent, SettingsComponent, MenuComponent],
+    imports: [
+      CommonModule,
+        MatDividerModule,
+        MatCardModule,
+        MatSlideToggleModule,
+        MatRadioModule,
+        ComponentsModule
+    ]
 })
 export class AlarmasModule { }
