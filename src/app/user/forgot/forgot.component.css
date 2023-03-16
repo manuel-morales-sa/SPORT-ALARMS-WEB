@@ -32,19 +32,6 @@ h2 {
   font-family: "Roboto";
 }
 
-.form-correo {
-  position: relative;
-  z-index: 1;
-  color: #434547;
-  background: #030303;
-  max-width: 500px;
-  margin: 0 auto 100px;
-  padding: 45px;
-  text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  border-radius: 10%;
-  border: 2px solid;
-}
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
@@ -66,26 +53,6 @@ h2 {
   cursor: pointer;
 }
 
-.form button {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #fcfcfc;
-  border: 2px solid;
-  border-radius: 25px 25px 25px 25px;
-  width: 50%;
-  border: 0;
-  padding: 20px;
-  color: #4a4a4a;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
-}
-.form button:hover,
-.form button:active,
-.form button:focus {
-  background: #0cd9f6;
-}
 .form .message {
   margin: 15px 0 0;
   color: #4a4a4a;
@@ -124,4 +91,12 @@ h2 {
 .footer {
   width: 50%;
   height: 25%;
+}
+
+.btn-cancelar {
+  background-color: #d80e70;
+  color: white;
+  border-color: #6e0051;
+  font-weight: 600;
+  width: 300px;
 }

@@ -1,0 +1,26 @@
+<div class="p-3">
+    <div class="row">
+        <div class="col-9"></div>
+        <div class="col-1 my-auto">
+            <button type="button" class="btn btn-outline rounded-5 btn-logout" [routerLink]="['/signin']">Log Out</button>
+        </div>
+        <div class="col-1 my-auto">
+            <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img width="80%" src="assets/plus1.png"/></a>
+        </div>
+        <div class="col-1 my-auto">
+            <a role="button" data-bs-toggle="modal" data-bs-target="#settingsModal"><img width="50%" src="assets/Settings.png" /></a>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <app-crear-evento></app-crear-evento>         
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <app-setting></app-setting>     
+</div>

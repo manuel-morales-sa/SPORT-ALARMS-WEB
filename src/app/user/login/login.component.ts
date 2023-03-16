@@ -14,17 +14,10 @@ export class LoginComponent implements OnInit {
     private toastr: ToastrService,
   ) {}
 
- 
   ngOnInit() {}
-
 
   submit() {
     this.router.navigate(['/alarm']);
   }
-
-  sendEmail(){
-    console.log('hola')
-  }
-
 
 }
